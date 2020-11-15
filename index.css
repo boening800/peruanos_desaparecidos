@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html,
+body {
+    margin: 0px;
+    font-family: 'Montserrat',
+        sans-serif;
+    background-color: #cecece !important;
+    background: url("assets/img/fondo_peru.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.container {
+    padding: 30px  20px;
+
+}
+
+.container__title {
+    color: #be442f;
+    display:flex;
+    flex-direction: row;
+}
+.container__title h1 {
+    margin: 0px;
+}
+
+.container__title img{
+    height: 30px;
+}
+
+
+.container__link:link,.container__link:visited{
+    color: #be442f;
+    font-weight: 700;
+}
+
+.container__iframe{
+    margin-top: 20px;
+}
+
+.container{
+    background-color: white;
+    margin-top: 1.5em;
+    border-radius: 12px;
+}
